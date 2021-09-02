@@ -1,0 +1,251 @@
+
+.introduce{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 70%;
+}
+.hi {
+  position: relative;
+  top: 10%;
+  width: 40%;
+  left: 10%;
+  font-size: 250%;
+  font-family: Libre Baskerville;
+}
+.describe {
+  position: relative;
+  top: 25%;
+  width: 25%;
+  left: 10%;
+  font-size: 100%;
+  padding: 15px;
+  border-left: 2px solid rgb(65, 66, 66);
+  font-family: Public Sans;
+}
+.vest {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  width: 20%;
+  height: auto;
+}
+.fun_fact {
+  position: absolute;
+  left: 0%;
+  top: 70%;
+  width: 100%;
+  height: 70%;
+  background-color: rgb(68, 74, 124);
+  color: white;
+}
+.fun {
+  position: absolute;
+  top: 30%;
+  width: 20%;
+  height: 40%;
+  left: 15%;
+  font-size: 400%;
+}
+.detail-1 {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  width: 50%;
+  height: 20%;
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.detail-1:hover .more-detail {
+  color: #d2d6df;
+}
+.detail-2 {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 50%;
+  height: 20%;
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.detail-2:hover .more-detail {
+  color: #d2d6df;
+}
+.detail-3 {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  width: 50%;
+  height: 20%;
+  border-left: 2px solid rgb(255, 255, 255);
+}
+.detail-3:hover .more-detail {
+  color: #d2d6df;
+}
+.detail {
+  position: relative;
+  margin-left: 10%;
+  top: 15%;
+  font-size: 150%;
+}
+.more-detail {
+  position: relative;
+  top: 20%;
+  margin-left: 10%;
+  width: 40%;
+  color: transparent;
+}
+
+.where {
+  position: absolute;
+  left: 0%;
+  top: 140%;
+  width: 100%;
+  height: 70%;
+  background: url(background-where.jpg);
+}
+.wrapper {
+  position: absolute;
+  top: 70px;
+  left: 40%;
+  width: 19%;
+  height: 78%;
+  perspective: 900px;
+}
+.container {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+  transform: rotateX(60deg) scale(1);
+  perspective: 900px;
+  box-shadow: 0px 20px 50px #555;
+  animation: entry 1s linear 1;
+}
+.intro1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -115%;
+  background: url(secondary.png);
+}
+.intro2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url(highschool.png);
+}
+.intro3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 115%;
+  background: url(university.png);
+}
+.container:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+  z-index: 400;
+}
+.place {
+  position: relative;
+  top: 5%;
+  color: rgb(154, 183, 209);
+  text-align: center;
+  font-size: 200%;
+  font-family: Libre Baskerville;
+}
+.in-my-free-time {
+  position: absolute;
+  top: 210%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  color: #1A2C5A;
+}
+.title-1 {
+  position: relative;
+  width: 80%;
+  top: 20%;
+  left: 15%;
+  font-family: Libre Baskerville;
+  font-size: 200%;
+}
+.somethings {
+  position: relative;
+  width: 80%;
+  top: 30%;
+  left: 15%;
+  font-family: Public Sans;
+}
+.image-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+.what-i-do {
+  position: relative;
+  width: 20%;
+  left: 40%;
+  height: 75%;
+  font-family: Public Sans;
+}
+.first {
+  position: absolute;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+}
+.digital {
+  position: relative;
+  width: 100%;
+  top: 25%;
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+.des-digital {
+  position: relative;
+  top: 35%;
+  width: 80%;
+}
+.second {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.pet {
+  position: relative;
+  width: 100%;
+  top: 25%;
+  height: 10%;
+  border-bottom: 1px solid black; 
+}
+.des-pet {
+  position: relative;
+  top: 35%;
+  width: 80%;
+}
+.third {
+  position: absolute;
+  right: -150%;
+  width: 100%;
+  height: 100%;
+}
+.gardern {
+  position: relative;
+  width: 100%;
+  top: 25%;
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+.des-gardern {
+  position: relative;
+  top: 35%;
+  width: 80%;
+}
